@@ -1,8 +1,9 @@
 import Link from "next/link";
+import { BrandMark } from "./ui/LocalMedia";
 
 export default function Home() {
   return <main className="path-home">
-    <div className="path-brand"><span>S</span><b>SKKU Exchange Atlas</b></div>
+    <div className="path-brand"><BrandMark className="path-brand-mark"/><b>SKKU Exchange Atlas</b></div>
     <section className="path-intro">
       <p>START YOUR EXCHANGE</p>
       <h1>지금 나에게 맞는 탐색부터<br/>시작해 보세요.</h1>
