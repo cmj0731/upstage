@@ -16,6 +16,7 @@ import { fallbackUniversities } from "../lib/fallback-data";
 import { getUniversities } from "../lib/supabase";
 import type { University } from "../lib/types";
 import { CountryDetailPanel } from "./CountryDetailPanel";
+import { BrandMark } from "./LocalMedia";
 
 const WIDTH = 1200;
 const HEIGHT = 650;
@@ -153,7 +154,7 @@ export function WorldMapExplorer() {
     <main className="world-explorer">
       <header className="world-header">
         <Link className="world-brand" href="/">
-          <span>S</span>
+          <BrandMark />
           <b>SKKU Exchange Atlas</b>
         </Link>
         <div>
